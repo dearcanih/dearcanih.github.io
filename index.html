@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>dear canih. | Personaliza tu bowl</title>
+  <meta name="description" content="Elige tu bowl, ponle el nombre de tu peludo y escoge el color. Hecho para una mascota real.">
+  <meta name="theme-color" content="#FFFAEF">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#app">Saltar al contenido</a>
+
+  <header class="top">
+    <a class="logo" href="#/" aria-label="dear canih., ir al inicio" id="logo"></a>
+    <a class="cartbtn" href="#/pedido" aria-label="Ver mi pedido">
+      <span>Mi pedido</span>
+      <b id="cart-count" aria-hidden="true">0</b>
+    </a>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+
+  <noscript><p style="padding:24px">Para personalizar tu bowl necesitas activar JavaScript.</p></noscript>
+
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/glyphs.js"></script>
+  <script src="js/bowls.js"></script>
+  <script src="js/logo.js"></script>
+  <script src="js/curve.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
